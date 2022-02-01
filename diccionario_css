@@ -1,0 +1,607 @@
+            initial, inherit, unset, string, url, integer, number, percentage
+            em, ex, ch, rem; vw, vh, vmin, vmax; cm, mm, Q, in, pt, pc, px; deg, grad, rad, turn; s, ms; Hz, kHz; dpi, dpcm, dppx;
+            calc(), attr()
+          
+Tipos
+Propiedad
+Descripción
+Valores
+contador
+Contador
+counter(nombre, estilo) 
+familia-genérica
+Familia genérica de fuente
+cursive | fantasy | monospace | serif | sans-serif
+forma
+Forma
+rect(top, right, bottom, left)
+tamaño-absoluto
+Tamaño absoluto de fuente
+xx-small | x-small | medium | large | x-large | xx-large
+tamaño-relativo
+Tamaño relativo de fuente
+larger | smaller
+uri (para imagen de fondo o fuentes web)
+Dirección absoluta o relativa
+url("ruta_y_nombre_de_archivo")
+Reglas arroba
+Propiedad
+Descripción
+Descriptores / Características
+@import
+Importar CSS
+url(...)
+@font-face
+Fuente web
+font-family, src, font-style, font-weight, font-stretch, unicode-range, font-variant, font-feature-settings
+@media
+Características del dispositivo
+width | height | orientation | aspect-ratio | resolution | etc. 
+Tipo de letra (fuente)
+Propiedad
+Descripción
+Valores
+font
+propiedad compuesta
+[ [ font-style || font-variant || font-weight ]? font-size [ / line-height ]? font-family ] | caption | icon | menu | message-box | small-caption | status-bar
+font-family
+tipo de letra (fuente)
+[ nombre-fuente | familia-genérica ] [, nombre-fuente | familia-genérica ]* 
+font-size
+tamaño
+tamaño-absoluto | tamaño-relativo | distancia | porcentaje
+font-weight
+grosor del trazo (negrita)
+normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+
+font-style
+inclinación (cursiva)
+normal | italic | oblique
+font-variant
+variantes tipográficas
+normal | small-caps
+font-variant-caps
+versalitas
+normal | small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps
+font-kerning
+kerning
+auto | normal | none
+font-variant-ligatures
+ligaduras
+normal | none | common-ligatures | no-common-ligatures | discretionary-ligatures | no-discretionary-ligatures | historical-ligatures | no-historical-ligatures | contextual | no-contextual
+font-variant-numeric
+versalitas
+normal | lining-nums | oldstyle-nums | proportional-nums | tabular-nums | diagonal-fractions | stacked-fractions | ordinal | slashed-zeros
+font-variant-position
+posición
+normal | sub | super
+font-variant-east-asian
+lenguas asiáticas
+normal | jis78 | jis83 | jis90 | jis04 | simplified | traditional | full-width | proportional-width | ruby
+font-feature-settings
+características OpenType
+normal | características OpenType
+font-synthesis
+síntesis
+none | weight | style
+font-size-adjust
+ajuste del tamaño
+número
+font-stretch
+anchura
+ultra-condensed, extra-condensed, condensed, semi-condensed, normal, semi-expanded, expanded, extra-expanded, ultra-expanded
+Color
+Propiedad
+Descripción
+Valores
+color
+color del texto
+color
+opacity
+opacidad / transparencia
+valor numérico | porcentaje
+Texto
+Propiedad
+Descripción
+Valores
+letter-spacing
+espacio entre caracteres
+normal | distancia
+line-height
+espaciado entre líneas
+normal | número | distancia | porcentaje
+text-align
+alineación del texto
+center | justify | left | right
+text-decoration
+decoración del texto
+none | blink | line-through | overline | underline
+text-indent
+sangrado de la primera línea
+distancia | porcentaje
+text-transform
+mayúsculas / minúsculas
+none | capitalize | lowercase | uppercase
+text-shadow
+sombreado
+desplazamiento horizontal, desplazamiento vertical, tamaño desenfoque, color
+vertical-align
+alineación vertical
+baseline | bottom | middle | sub | super | text-bottom | text-top | top | distancia | porcentaje
+white-space
+espacios en blanco, saltos de línea y wrap
+normal | nowrap | pre | pre-line | pre-wrap
+word-spacing
+espacio entre palabras
+normal | distancia
+Modos de escritura
+Propiedad
+Descripción
+Valores
+direction
+dirección del texto
+ltr | rtl
+unicode-bidi
+dirección del texto
+normal | embed | isolate | bidi-override | isolate-override | plaintext
+writing-mode
+
+
+text-orientation
+
+
+glyph-orientation-vertical
+
+
+text-combine-upright
+
+
+Bordes
+Propiedad
+Descripción
+Valores
+border
+cuatro bordes simultáneamente
+border-color || border-width || border-style
+border-top
+borde superior
+border-color || border-width || border-style
+border-right
+borde derecho
+border-color || border-width || border-style
+border-bottom
+borde inferior
+border-color || border-width || border-style
+border-left
+borde izquierdo
+border-color || border-width || border-style
+border-radius
+esquinas redondeadas
+[ distancia | porcentaje ] {1, 4}
+border-top-right-radius
+esquina superior derecha redondeada
+distancia | porcentaje
+border-bottom-right-radius
+esquina inferior derecha redondeada
+distancia | porcentaje
+border-bottom-left-radius
+esquina inferior izquierda redondeada
+distancia | porcentaje
+border-top-left-radius
+esquina superior izquierda redondeada
+distancia | porcentaje
+border-color
+color de los bordes
+[ color | transparent ] {1, 4}
+border-width
+grosor de los bordes
+[ medium | thick | thin | distancia ] {1, 4}
+border-style
+estilos de los bordes
+[ none | hidden | dashed | dotted | double | groove | inset | outset | ridge | solid ] {1, 4}
+border-top-color
+color del borde superior
+[ color | transparent ] {1, 4}
+border-top-width
+grosor del borde superior
+[ medium | thick | thin | distancia ] {1, 4}
+border-top-style
+estilo del borde superior
+[ none | hidden | dashed | dotted | double | groove | inset | outset | ridge | solid ] {1, 4}
+border-right-color
+color del borde derecho
+[ color | transparent ] {1, 4}
+border-right-width
+grosor del borde derecho
+[ medium | thick | thin | distancia ] {1, 4}
+border-right-style
+estilo del borde derecho
+[ none | hidden | dashed | dotted | double | groove | inset | outset | ridge | solid ] {1, 4}
+border-bottom-color
+color del borde inferior
+[ color | transparent ] {1, 4}
+border-bottom-width
+grosor del borde inferior
+[ medium | thick | thin | distancia ] {1, 4}
+border-bottom-style
+estilo del borde inferior
+[ none | hidden | dashed | dotted | double | groove | inset | outset | ridge | solid ] {1, 4}
+border-left-color
+color del borde izquierdo
+[ color | transparent ] {1, 4}
+border-left-width
+grosor del borde izquierdo
+[ medium | thick | thin | distancia ] {1, 4}
+border-left-style
+estilo del borde izquierdo
+[ none | hidden | dashed | dotted | double | groove | inset | outset | ridge | solid ] {1, 4}
+border-image
+propiedad compuesta
+border-image-source || border-image-slice || border-image-width || border-image-outset || border-image-repeat
+border-image-source
+imagen de borde
+URL
+border-image-slice
+troceado de la imagen de borde
+[ distancia | porcentaje ] {1, 4}
+border-image-width
+tamaño de borde
+[ distancia | porcentaje | número ] {1, 4}
+border-image-outset
+extensión del borde
+[ distancia | número ] {1, 4}
+border-image-repeat
+repetición del borde
+stretch | repeat | round | space
+box-shadow
+sombra de la caja
+none | [ distancia ] {2, 4} | color | inset
+Márgenes
+Propiedad
+Descripción
+Valores
+margin
+cuatro márgenes exterior simultáneamente
+[ auto | distancia | porcentaje ] {1, 4}
+margin-top
+margen exterior superior
+auto | distancia | porcentaje
+margin-right
+margen exterior derecho
+auto | distancia | porcentaje
+margin-bottom
+margen exterior inferior
+auto | distancia | porcentaje
+margin-left
+margen exterior izquierdo
+auto | distancia | porcentaje
+padding
+cuatro márgenes interiores simultáneamente
+[ distancia | porcentaje ] {1, 4}
+padding-top
+margen interior superior
+distancia | porcentaje
+padding-right
+margen interior derecho
+distancia | porcentaje
+padding-bottom
+margen interior inferior
+distancia | porcentaje
+padding-left
+margen interior izquierdo
+distancia | porcentaje
+Fondos
+Propiedad
+Descripción
+Valores
+background
+propiedad compuesta
+background-attachment || background-color || background-image || background-position || background-repeat 
+background
+fondos múltiples
+separados por comas
+background-attachment
+ligadura de la imagen
+fixed | scroll
+background-color
+color de fondo
+transparent | color
+background-image
+imagen de fondo
+none | uri
+background-position
+posición de la imagen de fondo
+[ [ left | center | right | distancia | porcentaje] [ top | center | bottom | distancia | porcentaje] ]? | [ [ left | center | right ] || [ top | center | bottom ] ]
+background-repeat
+repetición de la imagen de fondo
+no-repeat | repeat | repeat-x | repeat-y | space | round
+background-clip
+límite de la imagen de fondo
+border-box | padding-box | content-box
+background-size
+tamaño de la imagen de fondo
+auto | [ distancia | porcentaje ] {2} | contain | cover
+background-origin
+origen de la imagen de fondo
+border-box | padding-box | content-box
+Modelo de caja / Tamaño
+Propiedad
+Descripción
+Valores
+display
+tipo de caja
+none | block | inline | inline-block | inline-table | list-item | run-in | table | table-caption | table-cell | table-column | table-column-group | table-footer-group | table-header-group | table-row | table-row-group | flex | inline-flex
+box-sizing
+posición del borde y márgenes
+border-box | content-box
+width
+anchura
+auto | distancia | porcentaje 
+min-width
+anchura mínima
+distancia | porcentaje
+max-width
+anchura máxima
+distancia | porcentaje
+height
+altura
+auto | distancia | porcentaje
+min-height
+altura mínima
+distancia | porcentaje
+max-height
+anchura máxima
+distancia | porcentaje
+overflow
+si el contenido desborda al elemento
+auto | hidden | scroll | visible
+Posicionamiento
+Propiedad
+Descripción
+Valores
+float
+modo de posicionamiento flotante
+none | left | right
+clear
+lado en el que no puede haber elementos flotantes
+none | both | left | right
+position
+modo de posicionamiento
+absolute | fixed | relative | static
+top
+posición del borde superior del elemento
+auto | distancia | porcentaje
+right
+posición del borde derecho del elemento
+auto | distancia | porcentaje
+bottom
+posición del borde inferior del elemento
+auto | distancia | porcentaje
+left
+posición del borde izquierdo del elemento
+auto | distancia | porcentaje
+clip
+recorta el elemento
+auto | forma
+visibility
+visibilidad
+hidden | collapse | visible
+z-index
+apilamiento
+auto | número-entero
+contain
+independencia
+none | strict | content | size | layout | paint
+Cajas flexibles
+Propiedad
+Descripción
+Valores
+display
+tipo de caja
+flex || inline-flex
+flex-flow
+propiedad compuesta
+flex-direction || flex-wrap
+flex-direction
+dirección
+row || row-reverse || column || column-reverse
+flex-wrap
+ajuste de línea
+wrap || no-wrap || wrap-reverse
+order
+número de orden
+número
+flex
+propiedad compuesta
+[ flex-grow || flex-shrink || flex-basis ] || initial || auto || none || número 
+flex-grow
+factor de expansión
+número
+flex-shrink
+factor de compresión
+número
+flex-basis
+tamaño inicial
+distancia || auto || content || width
+justify-content
+alineación en la dirección principal
+flex-start || flex-end || center || space-between || space-around
+align-items
+alineación en la dirección secundaria (una línea)
+flex-start || flex-end || center || baseline || stretch
+align-self
+alineación individual en la dirección secundaria
+auto || flex-start || flex-end || center || baseline || stretch
+align-content
+alineación en la dirección secundaria (varias líneas)
+flex-start || flex-end || center || space-between || space-around || stretch
+Listas
+Propiedad
+Descripción
+Valores
+list-style
+propiedad compuesta
+list-style-image || list-style-position || list-style-type
+list-style-image
+imagen del marcador
+none | uri
+list-style-position
+posición del marcador
+inside | outside
+list-style-type
+tipo de marcador
+none | circle | disc | square | decimal | decimal-leading-zero | lower-alpha | upper-alpha | lower-greek | lower-latin | upper-latin | lower-roman | upper-roman | sistemas de numeración de otras lenguas
+Tablas
+Propiedad
+Descripción
+Valores
+border-collapse
+modo de bordes
+collapse | separate
+border-spacing
+separación entre celdas
+distancia distancia?
+caption-side
+posición de la leyenda
+top | bottom
+empty-cells
+borde de casillas vacías
+hide | show
+table-layout
+algoritmo ancho de tabla
+auto | fixed
+Columnas
+Propiedad
+Descripción
+Valores
+columns
+propiedad compuesta
+número || distancia
+column-count
+número de columnas
+número
+column-width
+ancho de columnas
+distancia
+column-gap
+espacio entre columnas
+distancia
+column-rule
+propiedad compuesta
+column-rule-color || column-rule-width || column-rule-style
+column-rule-color
+color del borde entre columnas
+color | transparent
+column-rule-width
+grosor del borde entre columnas
+medium | thick | thin | distancia
+column-rule-style
+estilos del borde entre columnas
+none | hidden | dashed | dotted | double | groove | inset | outset | ridge | solid
+column-span
+extenderse varias columnas
+none | all
+column-fill
+columnas balanceadas
+
+Impresora
+Propiedad
+Descripción
+Valores
+page-break-after
+salto de página después de
+auto | always | avoid | left | right
+page-break-before
+salto de página antes de
+auto | always | avoid | left | right
+page-break-inside
+salto de página dentro de
+auto | avoid
+orphans
+número de líneas al final de página
+número-entero
+widows
+número de líneas al principio de la página
+número-entero
+Interfaz de usuario
+Propiedad
+Descripción
+Valores
+cursor
+tipo de cursor
+[uri,]* | auto | crosshair | default | help | move | pointer | progress | n-resize | ne-resize | e-resize | se-resize | s-resize | sw-resize | w-resize | nw-resize | text | wait
+outline
+contorno
+outline-color || outline-width || outline-style
+outline-color
+color del contorno
+color
+outline-width
+grosor del contorno
+distancia
+outline-style
+estilo del contorno
+border-style
+outline-offset
+tamaño del contorno
+distancia
+Pseudo-elementos
+Nombre
+Descripción
+Valores
+::after
+inserta contenido después del elemento
+content: contenido
+::before
+inserta contenido antes del elemento
+content: contenido
+::first-letter
+primera letra
+
+::first-line
+primera línea de texto
+
+content
+contenido generado
+normal | none | [ texto | uri | contador | attr(atributo) | open-quote | close-quote | no-open-quote | no-close-quote ]+
+counter-increment
+incremento de contador
+none | [ identificador número-entero? ]+
+counter-reset
+puesto a cero de contador
+none | [ identificador número-entero? ]+
+quotes
+comillas
+none | [ texto-apertura texto-cierre ]+
+Pseudo-clases
+Nombre
+Descripción
+Valores
+:active
+cuando se hace clic sobre el elemento
+
+:first-child
+primer elemento hijo
+
+:focus
+cuando el elemento tiene el foco
+
+:hover
+cuando el ratón pasa sobre el elemento
+
+:lang
+idioma
+:lang(en) | :lang(es) | :lang(fr) etc.
+:link
+enlaces no visitados
+
+:visited
+enlaces ya visitados
+
+Otras
+Nombre
+Descripción
+Valores
+contain
+
+none | strict | content | [ size || layout || style || paint ]
